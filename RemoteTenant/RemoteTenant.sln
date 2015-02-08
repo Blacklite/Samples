@@ -1,0 +1,78 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.22512.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{EF3989F4-BF36-4E9C-87BF-7FD8ADDC657F}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "RemoteTenant", "src\RemoteTenant\RemoteTenant.kproj", "{629FED25-7702-4CEB-BBA3-F389BA44C249}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0FEFD4A0-42B4-44E4-93A7-6009FA20600F}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+	ProjectSection(FolderGlobals) = preProject
+		blacklite_2RemoteTenant_2global_1json__JSONSchema = http://json.schemastore.org/global
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Blacklite.Framework.Multitenancy.Http", "..\Multitenancy\src\Blacklite.Framework.Multitenancy.Http\Blacklite.Framework.Multitenancy.Http.kproj", "{B723A722-2BD6-4C93-ADCB-78B9EB94653A}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Blacklite.Framework.Multitenancy", "..\Multitenancy\src\Blacklite.Framework.Multitenancy\Blacklite.Framework.Multitenancy.kproj", "{1628899E-71FF-4D91-8AD3-42E5C8DC384E}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Blacklite.Framework.Interfaces", "..\Common\src\Blacklite.Framework.Interfaces\Blacklite.Framework.Interfaces.kproj", "{B31A377D-1905-4438-A02B-CD4EEAD8DCC7}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Blacklite.Framework.Events", "..\Common\src\Blacklite.Framework.Events\Blacklite.Framework.Events.kproj", "{161CF813-CA55-49ED-B0A5-CB1A7F1CC43D}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Blacklite.Framework.Multitenancy.Interfaces", "..\Multitenancy\src\Blacklite.Framework.Multitenancy.Interfaces\Blacklite.Framework.Multitenancy.Interfaces.kproj", "{57A8E605-6ADB-4683-854E-D8ABB6CF2BCC}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Blacklite.Framework.Multitenancy.Autofac", "..\Multitenancy\src\Blacklite.Framework.Multitenancy.Autofac\Blacklite.Framework.Multitenancy.Autofac.kproj", "{16A36C84-02D8-4CF8-9B7F-5110DC50F09F}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "TenantRegistry", "src\TenantRegistry\TenantRegistry.kproj", "{D03F63D5-C98B-43E9-8CB4-D240CA09D685}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{629FED25-7702-4CEB-BBA3-F389BA44C249}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{629FED25-7702-4CEB-BBA3-F389BA44C249}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{629FED25-7702-4CEB-BBA3-F389BA44C249}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{629FED25-7702-4CEB-BBA3-F389BA44C249}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B723A722-2BD6-4C93-ADCB-78B9EB94653A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B723A722-2BD6-4C93-ADCB-78B9EB94653A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B723A722-2BD6-4C93-ADCB-78B9EB94653A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B723A722-2BD6-4C93-ADCB-78B9EB94653A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1628899E-71FF-4D91-8AD3-42E5C8DC384E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1628899E-71FF-4D91-8AD3-42E5C8DC384E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1628899E-71FF-4D91-8AD3-42E5C8DC384E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1628899E-71FF-4D91-8AD3-42E5C8DC384E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B31A377D-1905-4438-A02B-CD4EEAD8DCC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B31A377D-1905-4438-A02B-CD4EEAD8DCC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B31A377D-1905-4438-A02B-CD4EEAD8DCC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B31A377D-1905-4438-A02B-CD4EEAD8DCC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{161CF813-CA55-49ED-B0A5-CB1A7F1CC43D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{161CF813-CA55-49ED-B0A5-CB1A7F1CC43D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{161CF813-CA55-49ED-B0A5-CB1A7F1CC43D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{161CF813-CA55-49ED-B0A5-CB1A7F1CC43D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57A8E605-6ADB-4683-854E-D8ABB6CF2BCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57A8E605-6ADB-4683-854E-D8ABB6CF2BCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57A8E605-6ADB-4683-854E-D8ABB6CF2BCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57A8E605-6ADB-4683-854E-D8ABB6CF2BCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16A36C84-02D8-4CF8-9B7F-5110DC50F09F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16A36C84-02D8-4CF8-9B7F-5110DC50F09F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16A36C84-02D8-4CF8-9B7F-5110DC50F09F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16A36C84-02D8-4CF8-9B7F-5110DC50F09F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D03F63D5-C98B-43E9-8CB4-D240CA09D685}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D03F63D5-C98B-43E9-8CB4-D240CA09D685}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D03F63D5-C98B-43E9-8CB4-D240CA09D685}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D03F63D5-C98B-43E9-8CB4-D240CA09D685}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{629FED25-7702-4CEB-BBA3-F389BA44C249} = {EF3989F4-BF36-4E9C-87BF-7FD8ADDC657F}
+		{D03F63D5-C98B-43E9-8CB4-D240CA09D685} = {EF3989F4-BF36-4E9C-87BF-7FD8ADDC657F}
+	EndGlobalSection
+EndGlobal
